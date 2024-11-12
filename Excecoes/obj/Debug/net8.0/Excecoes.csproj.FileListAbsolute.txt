@@ -1,0 +1,12 @@
+C:\TrabalhoPOO\Excecoes\bin\Debug\net8.0\Excecoes.deps.json
+C:\TrabalhoPOO\Excecoes\bin\Debug\net8.0\Excecoes.dll
+C:\TrabalhoPOO\Excecoes\bin\Debug\net8.0\Excecoes.pdb
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\Excecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\Excecoes.AssemblyInfoInputs.cache
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\Excecoes.AssemblyInfo.cs
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\Excecoes.csproj.CoreCompileInputs.cache
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\Excecoes.sourcelink.json
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\Excecoes.dll
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\refint\Excecoes.dll
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\Excecoes.pdb
+C:\TrabalhoPOO\Excecoes\obj\Debug\net8.0\ref\Excecoes.dll
