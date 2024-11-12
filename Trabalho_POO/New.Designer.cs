@@ -39,9 +39,9 @@
             tbBirthDate = new TextBox();
             tBoxPassword = new TextBox();
             panel1 = new Panel();
-            button1 = new Button();
             pictureBox1 = new PictureBox();
             label3 = new Label();
+            button1 = new Button();
             checkBox1 = new CheckBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -64,7 +64,7 @@
             // 
             tbEmail.BackColor = SystemColors.ButtonHighlight;
             tbEmail.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbEmail.ForeColor = Color.White;
+            tbEmail.ForeColor = Color.Black;
             tbEmail.Location = new Point(358, 253);
             tbEmail.Name = "tbEmail";
             tbEmail.Size = new Size(315, 29);
@@ -118,7 +118,7 @@
             // 
             tbName.BackColor = SystemColors.ButtonHighlight;
             tbName.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbName.ForeColor = Color.White;
+            tbName.ForeColor = Color.Black;
             tbName.Location = new Point(358, 116);
             tbName.Name = "tbName";
             tbName.Size = new Size(315, 29);
@@ -139,7 +139,7 @@
             // 
             tbBirthDate.BackColor = SystemColors.ButtonHighlight;
             tbBirthDate.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbBirthDate.ForeColor = Color.White;
+            tbBirthDate.ForeColor = Color.Black;
             tbBirthDate.Location = new Point(358, 186);
             tbBirthDate.MaxLength = 10;
             tbBirthDate.Name = "tbBirthDate";
@@ -150,7 +150,7 @@
             // 
             tBoxPassword.BackColor = SystemColors.ButtonHighlight;
             tBoxPassword.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tBoxPassword.ForeColor = Color.White;
+            tBoxPassword.ForeColor = Color.Black;
             tBoxPassword.Location = new Point(358, 320);
             tBoxPassword.MaxLength = 14;
             tBoxPassword.Name = "tBoxPassword";
@@ -160,7 +160,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.ControlDarkDark;
+            panel1.BackColor = SystemColors.ButtonShadow;
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(button1);
@@ -169,18 +169,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(334, 478);
             panel1.TabIndex = 33;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ControlDarkDark;
-            button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(12, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 37);
-            button1.TabIndex = 0;
-            button1.Text = "< Back";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 
@@ -202,6 +190,18 @@
             label3.Size = new Size(293, 45);
             label3.TabIndex = 21;
             label3.Text = "Hotel Managment";
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ControlDarkDark;
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 37);
+            button1.TabIndex = 0;
+            button1.Text = "< Back";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // checkBox1
             // 

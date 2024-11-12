@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\TrabalhoPOO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|C:\\TrabalhoPOO\\trabalho_poo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,31 +51,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Objects\\User.cs",
+              "RelativeDocumentMoniker": "Objects\\User.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Objects\\User.cs",
+              "RelativeToolTip": "Objects\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:19:09.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\Login.cs",
+              "RelativeDocumentMoniker": "Trabalho_POO\\Login.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\Login.cs",
+              "RelativeToolTip": "Trabalho_POO\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwCcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:16:19.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs [Projeto]",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\Login.cs",
+              "RelativeDocumentMoniker": "Trabalho_POO\\Login.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\Login.cs [Projeto]",
+              "RelativeToolTip": "Trabalho_POO\\Login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:16:16.368Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AdminPainel.cs [Projeto]",
               "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPainel.cs",
               "RelativeDocumentMoniker": "Trabalho_POO\\AdminPainel.cs",
-              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPainel.cs [Projeto]*",
-              "RelativeToolTip": "Trabalho_POO\\AdminPainel.cs [Projeto]*",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPainel.cs [Projeto]",
+              "RelativeToolTip": "Trabalho_POO\\AdminPainel.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T12:04:33.859Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AdminPainel.cs",
               "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPainel.cs",
               "RelativeDocumentMoniker": "Trabalho_POO\\AdminPainel.cs",
-              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPainel.cs*",
-              "RelativeToolTip": "Trabalho_POO\\AdminPainel.cs*",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPainel.cs",
+              "RelativeToolTip": "Trabalho_POO\\AdminPainel.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwCUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:03:26.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T12:03:26.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\Main.cs",
               "RelativeDocumentMoniker": "Trabalho_POO\\Main.cs",
@@ -76,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Main.cs [Projeto]",
               "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\Main.cs",
               "RelativeDocumentMoniker": "Trabalho_POO\\Main.cs",
