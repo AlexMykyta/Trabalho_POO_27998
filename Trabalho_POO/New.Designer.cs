@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(New));
             btCreate = new Button();
             tbEmail = new TextBox();
             label2 = new Label();
@@ -39,18 +38,23 @@
             label6 = new Label();
             tbBirthDate = new TextBox();
             tBoxPassword = new TextBox();
-            btBack = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)btBack).BeginInit();
+            panel1 = new Panel();
+            button1 = new Button();
+            pictureBox1 = new PictureBox();
+            label3 = new Label();
+            checkBox1 = new CheckBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // btCreate
             // 
-            btCreate.BackColor = Color.FromArgb(40, 196, 220);
+            btCreate.BackColor = SystemColors.ControlDarkDark;
             btCreate.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btCreate.ForeColor = Color.White;
-            btCreate.Location = new Point(549, 415);
+            btCreate.Location = new Point(428, 393);
             btCreate.Name = "btCreate";
-            btCreate.Size = new Size(147, 53);
+            btCreate.Size = new Size(174, 36);
             btCreate.TabIndex = 23;
             btCreate.Text = "Create";
             btCreate.UseVisualStyleBackColor = false;
@@ -58,120 +62,166 @@
             // 
             // tbEmail
             // 
-            tbEmail.BackColor = Color.FromArgb(40, 196, 220);
+            tbEmail.BackColor = SystemColors.ButtonHighlight;
             tbEmail.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tbEmail.ForeColor = Color.White;
-            tbEmail.Location = new Point(303, 336);
+            tbEmail.Location = new Point(358, 253);
             tbEmail.Name = "tbEmail";
-            tbEmail.Size = new Size(273, 29);
+            tbEmail.Size = new Size(315, 29);
             tbEmail.TabIndex = 21;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(221, 336);
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(358, 229);
             label2.Name = "label2";
-            label2.Size = new Size(66, 30);
+            label2.Size = new Size(57, 21);
             label2.TabIndex = 19;
-            label2.Text = "Email";
+            label2.Text = "Email:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(440, 143);
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(413, 34);
             label1.Name = "label1";
-            label1.Size = new Size(373, 65);
+            label1.Size = new Size(189, 32);
             label1.TabIndex = 18;
             label1.Text = "Create Account";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(673, 336);
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Location = new Point(358, 296);
             label4.Name = "label4";
-            label4.Size = new Size(105, 30);
+            label4.Size = new Size(86, 21);
             label4.TabIndex = 25;
-            label4.Text = "Password";
+            label4.Text = "Password:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(675, 264);
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = SystemColors.ActiveCaptionText;
+            label5.Location = new Point(358, 162);
             label5.Name = "label5";
-            label5.Size = new Size(113, 30);
+            label5.Size = new Size(91, 21);
             label5.TabIndex = 24;
-            label5.Text = "Birth Date";
+            label5.Text = "Birth Date:";
             // 
             // tbName
             // 
-            tbName.BackColor = Color.FromArgb(40, 196, 220);
+            tbName.BackColor = SystemColors.ButtonHighlight;
             tbName.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tbName.ForeColor = Color.White;
-            tbName.Location = new Point(303, 268);
+            tbName.Location = new Point(358, 116);
             tbName.Name = "tbName";
-            tbName.Size = new Size(273, 29);
+            tbName.Size = new Size(315, 29);
             tbName.TabIndex = 29;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(221, 268);
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = SystemColors.ActiveCaptionText;
+            label6.Location = new Point(355, 92);
             label6.Name = "label6";
-            label6.Size = new Size(71, 30);
+            label6.Size = new Size(60, 21);
             label6.TabIndex = 28;
-            label6.Text = "Name";
+            label6.Text = "Name:";
             // 
             // tbBirthDate
             // 
-            tbBirthDate.BackColor = Color.FromArgb(40, 196, 220);
+            tbBirthDate.BackColor = SystemColors.ButtonHighlight;
             tbBirthDate.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tbBirthDate.ForeColor = Color.White;
-            tbBirthDate.Location = new Point(794, 264);
+            tbBirthDate.Location = new Point(358, 186);
             tbBirthDate.MaxLength = 10;
             tbBirthDate.Name = "tbBirthDate";
-            tbBirthDate.Size = new Size(273, 29);
+            tbBirthDate.Size = new Size(315, 29);
             tbBirthDate.TabIndex = 30;
             // 
             // tBoxPassword
             // 
-            tBoxPassword.BackColor = Color.FromArgb(40, 196, 220);
+            tBoxPassword.BackColor = SystemColors.ButtonHighlight;
             tBoxPassword.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tBoxPassword.ForeColor = Color.White;
-            tBoxPassword.Location = new Point(794, 340);
+            tBoxPassword.Location = new Point(358, 320);
             tBoxPassword.MaxLength = 14;
             tBoxPassword.Name = "tBoxPassword";
             tBoxPassword.PasswordChar = '*';
-            tBoxPassword.Size = new Size(273, 29);
+            tBoxPassword.Size = new Size(315, 29);
             tBoxPassword.TabIndex = 31;
             // 
-            // btBack
+            // panel1
             // 
-            btBack.Image = (Image)resources.GetObject("btBack.Image");
-            btBack.Location = new Point(11, 12);
-            btBack.Name = "btBack";
-            btBack.Size = new Size(60, 60);
-            btBack.SizeMode = PictureBoxSizeMode.AutoSize;
-            btBack.TabIndex = 32;
-            btBack.TabStop = false;
-            btBack.Click += btBack_Click;
+            panel1.BackColor = SystemColors.ControlDarkDark;
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(button1);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(334, 478);
+            panel1.TabIndex = 33;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ControlDarkDark;
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 37);
+            button1.TabIndex = 0;
+            button1.Text = "< Back";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources._88973;
+            pictureBox1.Location = new Point(106, 216);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(124, 116);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 22;
+            pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = SystemColors.ActiveCaptionText;
+            label3.Location = new Point(22, 92);
+            label3.Name = "label3";
+            label3.Size = new Size(293, 45);
+            label3.TabIndex = 21;
+            label3.Text = "Hotel Managment";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(358, 355);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(108, 19);
+            checkBox1.TabIndex = 34;
+            checkBox1.Text = "Show Password";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // New
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(40, 196, 220);
-            ClientSize = new Size(1232, 723);
-            Controls.Add(btBack);
+            BackColor = SystemColors.ButtonHighlight;
+            ClientSize = new Size(685, 478);
+            Controls.Add(checkBox1);
+            Controls.Add(panel1);
             Controls.Add(tBoxPassword);
             Controls.Add(tbBirthDate);
             Controls.Add(tbName);
@@ -186,7 +236,9 @@
             Name = "New";
             Text = "New";
             Load += New_Load;
-            ((System.ComponentModel.ISupportInitialize)btBack).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -206,6 +258,9 @@
         private Label label6;
         private TextBox tbBirthDate;
         private TextBox tBoxPassword;
-        private PictureBox btBack;
+        private Panel panel1;
+        private Button button1;
+        private PictureBox pictureBox1;
+        private CheckBox checkBox1;
     }
 }

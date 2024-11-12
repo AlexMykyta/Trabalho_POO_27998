@@ -1,1 +1,2 @@
 b41e978c-3fe8-44fd-8f7c-4c96082991a4,Tiago Carneiro,tiagoacarneiro04@gmail.com,2004-02-11,teste123,User
+6884c399-514f-4c4a-bceb-2c938f65e39b,teste,teste@gmail.com,2000-01-01,1234,User

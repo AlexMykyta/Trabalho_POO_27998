@@ -32,7 +32,7 @@ namespace Dados
         /// 
         public static List<User>? LoadUsers(out string errorMessage)
         {
-            string filePath = "C:\\Projeto_POO_28002-dev\\Projeto_POO_28002-dev\\Trabalho_POO\\Bd\\Users.txt";
+            string filePath = "C:\\TrabalhoPOO\\Trabalho_POO\\Bd\\Users.txt";
             var users = new List<User>();
             errorMessage = null;
 

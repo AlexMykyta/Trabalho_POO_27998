@@ -35,16 +35,22 @@
             label2 = new Label();
             label1 = new Label();
             llCreate = new LinkLabel();
+            panel1 = new Panel();
+            pictureBox1 = new PictureBox();
+            label4 = new Label();
+            checkBox1 = new CheckBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // btLogin
             // 
-            btLogin.BackColor = Color.FromArgb(40, 196, 220);
+            btLogin.BackColor = SystemColors.ControlDarkDark;
             btLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btLogin.ForeColor = Color.White;
-            btLogin.Location = new Point(578, 490);
+            btLogin.Location = new Point(422, 330);
             btLogin.Name = "btLogin";
-            btLogin.Size = new Size(147, 53);
+            btLogin.Size = new Size(156, 33);
             btLogin.TabIndex = 17;
             btLogin.Text = "Login";
             btLogin.UseVisualStyleBackColor = false;
@@ -52,67 +58,69 @@
             // 
             // tbPassword
             // 
-            tbPassword.BackColor = Color.FromArgb(40, 196, 220);
+            tbPassword.BackColor = SystemColors.ButtonHighlight;
             tbPassword.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbPassword.ForeColor = Color.White;
-            tbPassword.Location = new Point(523, 378);
+            tbPassword.ForeColor = Color.Black;
+            tbPassword.Location = new Point(349, 256);
             tbPassword.MaxLength = 14;
             tbPassword.Name = "tbPassword";
             tbPassword.PasswordChar = '*';
-            tbPassword.Size = new Size(273, 29);
+            tbPassword.Size = new Size(324, 29);
             tbPassword.TabIndex = 16;
             // 
             // tbEmail
             // 
-            tbEmail.BackColor = Color.FromArgb(40, 196, 220);
+            tbEmail.BackColor = Color.White;
             tbEmail.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbEmail.ForeColor = Color.White;
-            tbEmail.Location = new Point(523, 306);
+            tbEmail.ForeColor = Color.Black;
+            tbEmail.Location = new Point(350, 181);
             tbEmail.Name = "tbEmail";
-            tbEmail.Size = new Size(273, 29);
+            tbEmail.Size = new Size(323, 29);
             tbEmail.TabIndex = 15;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(402, 379);
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(349, 232);
             label3.Name = "label3";
-            label3.Size = new Size(105, 30);
+            label3.Size = new Size(86, 21);
             label3.TabIndex = 14;
-            label3.Text = "Password";
+            label3.Text = "Password:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(441, 306);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(350, 157);
             label2.Name = "label2";
-            label2.Size = new Size(66, 30);
+            label2.Size = new Size(57, 21);
             label2.TabIndex = 13;
-            label2.Text = "Email";
+            label2.Text = "Email:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(531, 181);
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(442, 67);
             label1.Name = "label1";
-            label1.Size = new Size(237, 65);
+            label1.Size = new Size(119, 32);
             label1.TabIndex = 12;
             label1.Text = "Welcome";
             // 
             // llCreate
             // 
-            llCreate.ActiveLinkColor = Color.White;
+            llCreate.ActiveLinkColor = Color.Black;
             llCreate.AutoSize = true;
+            llCreate.BackColor = Color.Transparent;
             llCreate.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            llCreate.ForeColor = Color.White;
-            llCreate.LinkColor = Color.White;
-            llCreate.Location = new Point(552, 422);
+            llCreate.ForeColor = Color.Black;
+            llCreate.LinkColor = Color.Black;
+            llCreate.Location = new Point(58, 421);
             llCreate.Name = "llCreate";
             llCreate.Size = new Size(210, 21);
             llCreate.TabIndex = 18;
@@ -120,23 +128,74 @@
             llCreate.Text = "Click to create an account";
             llCreate.LinkClicked += llCreate_LinkClicked;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ButtonShadow;
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(llCreate);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(334, 478);
+            panel1.TabIndex = 19;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources._88973;
+            pictureBox1.Location = new Point(96, 181);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(124, 116);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 20;
+            pictureBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Location = new Point(12, 57);
+            label4.Name = "label4";
+            label4.Size = new Size(293, 45);
+            label4.TabIndex = 19;
+            label4.Text = "Hotel Managment";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.ForeColor = SystemColors.ActiveCaptionText;
+            checkBox1.Location = new Point(350, 291);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(123, 23);
+            checkBox1.TabIndex = 20;
+            checkBox1.Text = "Show Password";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(40, 196, 220);
-            ClientSize = new Size(1232, 723);
-            Controls.Add(llCreate);
+            BackColor = Color.White;
+            ClientSize = new Size(685, 478);
+            Controls.Add(checkBox1);
+            Controls.Add(panel1);
             Controls.Add(btLogin);
             Controls.Add(tbPassword);
             Controls.Add(tbEmail);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Font = new Font("Segoe UI", 10F);
+            ForeColor = SystemColors.ButtonHighlight;
             FormBorderStyle = FormBorderStyle.None;
             Name = "Login";
             Text = "Form2";
             Load += Login_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -150,5 +209,9 @@
         private Label label2;
         private Label label1;
         private LinkLabel llCreate;
+        private Panel panel1;
+        private PictureBox pictureBox1;
+        private Label label4;
+        private CheckBox checkBox1;
     }
 }

@@ -25,25 +25,14 @@ namespace Trabalho_POO
                 create.Close();
             }
 
-            sideBar.Visible = false;
-            btSideBar.Visible = false;
-
-            if (login == null)
-            {
-                login = new Login();
-                login.FormClosed += Login_FormClosed;
-                login.OnLoginSuccess += Login_OnLoginSuccess;
-                login.OnCreateAccount += Login_OnCreateAccount;
-                login.MdiParent = this;
-                login.Dock = DockStyle.Fill;
-                login.Show();
-            }
+            sideBar.Visible = true;
+            btSideBar.Visible = true;
+  
         }
 
         private void Login_OnLoginSuccess()
         {
-            sideBar.Visible = true;
-            btSideBar.Visible = true;
+
         }
 
         private void Login_FormClosed(object? sender, FormClosedEventArgs e)
@@ -87,29 +76,12 @@ namespace Trabalho_POO
         bool menuExpand = false;
         private void menuTransition_Tick(object sender, EventArgs e)
         {
-            if (menuExpand == false)
-            {
-                menuContainer.Height += 10;
-                if (menuContainer.Height >= 228)
-                {
-                    menuTransition.Stop();
-                    menuExpand = true;
-                }
-            }
-            else
-            {
-                menuContainer.Height -= 10;
-                if (menuContainer.Height <= 48)
-                {
-                    menuTransition.Stop();
-                    menuExpand = false;
-                }
-            }
+           
         }
 
         private void btManage_Click(object sender, EventArgs e)
         {
-            menuTransition.Start();
+            
         }
 
         bool sideBarExpand = true;
@@ -182,5 +154,20 @@ namespace Trabalho_POO
             clients = null;
         }
         #endregion
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btAbout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

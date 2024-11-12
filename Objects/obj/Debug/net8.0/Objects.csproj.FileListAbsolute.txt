@@ -8,7 +8,6 @@ C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.GeneratedMSBuildEditorConfig.edi
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.AssemblyInfoInputs.cache
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.AssemblyInfo.cs
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.csproj.CoreCompileInputs.cache
-C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.sourcelink.json
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.csproj.Up2Date
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.dll
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\refint\Objects.dll

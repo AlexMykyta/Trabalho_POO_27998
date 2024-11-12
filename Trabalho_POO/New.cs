@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using static Excecoes.Excecoes;
 using System.Globalization;
+using Objects;
+using Dados;
 
 namespace Trabalho_POO
 {
@@ -30,13 +32,11 @@ namespace Trabalho_POO
             ClearFields(tbBirthDate, tbEmail, tbName, tBoxPassword);
         }
 
-        private void btBack_Click(object sender, EventArgs e)
-        {
-            ClearFields(tbBirthDate, tbEmail, tbName, tBoxPassword);
-        }
+
 
         #region Create Button
-        private void btCreate_Click(object sender, EventArgs e) {
+        private void btCreate_Click(object sender, EventArgs e)
+        {
             string name = tbName.Text.Trim(),
                    email = tbEmail.Text.Trim(),
                    password = tBoxPassword.Text,
@@ -58,14 +58,16 @@ namespace Trabalho_POO
                 ValidateFields(name, email, password);
                 ValidateUserExists(email);
 
-                //var newUser = new User(id, name, email, dataNascimento, password, role);
+                var newUser = new User(id, name, email, dataNascimento, password, role);
 
-                //string userData = $"{newUser.Id},{newUser.Name},{newUser.Email},{newUser.DataNascimento:yyyy-MM-dd},{newUser.Password},{newUser.Role}";
-                //File.AppendAllText(filePath, userData + Environment.NewLine);
+                string userData = $"{newUser.Id},{newUser.Name},{newUser.Email},{newUser.DataNascimento:yyyy-MM-dd},{newUser.Password},{newUser.Role}";
+                File.AppendAllText(filePath, userData + Environment.NewLine);
 
                 ClearFields(tbBirthDate, tbEmail, tbName, tBoxPassword);
-                OnCreateSuccess?.Invoke();
-                this.Close();
+                Login Login = new Login();
+
+                this.Hide();
+                Login.Show();
             }
             catch (UserExistsException ex)
             {
@@ -82,7 +84,8 @@ namespace Trabalho_POO
             }
         }
 
-        private static void ValidateFields(string name, string email, string password){
+        private static void ValidateFields(string name, string email, string password)
+        {
             if (string.IsNullOrWhiteSpace(name))
                 throw new NullArgumentException("name");
 
@@ -93,9 +96,10 @@ namespace Trabalho_POO
                 throw new NullArgumentException("password");
         }
 
-        private void ValidateUserExists(string email) {
+        private void ValidateUserExists(string email)
+        {
             LoadUsers();
-            //if (users.Any(user => user.Email.Equals(email, StringComparison.OrdinalIgnoreCase)))
+            //if (Users.Any(user => user.Email.Equals(email, StringComparison.OrdinalIgnoreCase)))
             //{
             //    throw new UserExistsException("Já existe um usuário com este email.");
             //}
@@ -145,11 +149,26 @@ namespace Trabalho_POO
         }
         #endregion
 
-        private static void ClearFields(params TextBox[] textBoxes) {
+        private static void ClearFields(params TextBox[] textBoxes)
+        {
             foreach (var textBox in textBoxes)
             {
                 textBox.Clear();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ClearFields(tbBirthDate, tbEmail, tbName, tBoxPassword);
+            Login Login = new Login();
+
+            this.Hide();
+            Login.Show();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+           tBoxPassword.PasswordChar = checkBox1.Checked ? '\0' : '*';
         }
     }
 }

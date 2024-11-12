@@ -22,7 +22,7 @@ namespace Trabalho_POO
 
             if (error != null)
             {
-                
+
             }
         }
         #endregion
@@ -31,26 +31,39 @@ namespace Trabalho_POO
         private void btLogin_Click(object sender, EventArgs e)
         {
             string email = tbEmail.Text.Trim(),
-                   password = tbPassword.Text;
+                   password = tbPassword.Text,
+                   textEmail = tbEmail.Text,
+                   textPassWord = tbPassword.Text;
 
             try
             {
-                ValidateFields(email, password);
-
-                User user = users.Find(user => user.Email.Equals(email, StringComparison.OrdinalIgnoreCase));
-
-                if (user == null)
+                if(textEmail == "Admin" && textPassWord == "Admin")
                 {
-                    throw new UserNotFoundException();
-                }
 
-                if (user.Password != password)
+                    AdminPainel AdminPainel = new AdminPainel();
+                    this.Hide();
+                    AdminPainel.Show();
+                }
+                else
                 {
-                    throw new WrongPasswordException();
-                }
+                    ValidateFields(email, password);
 
-                OnLoginSuccess?.Invoke();
-                this.Close();
+                    User user = users.Find(user => user.Email.Equals(email, StringComparison.OrdinalIgnoreCase));
+
+                    if (user == null)
+                    {
+                        throw new UserNotFoundException();
+                    }
+
+                    if (user.Password != password)
+                    {
+                        throw new WrongPasswordException();
+                    }
+
+                    Main Main = new Main();
+                    this.Hide();
+                    Main.Show();
+                }  
             }
             catch (NullArgumentException ex)
             {
@@ -83,9 +96,16 @@ namespace Trabalho_POO
         #region Create Account
         private void llCreate_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            OnCreateAccount?.Invoke();
-            this.Close();
+            New New = new New();
+
+            this.Hide();
+            New.Show();
         }
         #endregion
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            tbPassword.PasswordChar = checkBox1.Checked ? '\0' : '*';
+        }
     }
 }

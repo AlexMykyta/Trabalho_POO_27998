@@ -120,10 +120,11 @@ C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.GeneratedMSBui
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AssemblyInfoInputs.cache
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AssemblyInfo.cs
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.csproj.CoreCompileInputs.cache
-C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.sourcelink.json
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho.87D807AC.Up2Date
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.dll
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\refint\Trabalho_POO.dll
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.pdb
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.genruntimeconfig.cache
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\ref\Trabalho_POO.dll
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.sourcelink.json
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AdminPainel.resources

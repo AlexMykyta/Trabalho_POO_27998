@@ -10,7 +10,6 @@ C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.GeneratedMSBuildEditorConfig.editorc
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.AssemblyInfoInputs.cache
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.AssemblyInfo.cs
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.csproj.CoreCompileInputs.cache
-C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.sourcelink.json
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.csproj.Up2Date
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.dll
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\refint\Dados.dll
