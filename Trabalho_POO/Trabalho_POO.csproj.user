@@ -2,22 +2,28 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="AdminPainel.cs">
+    <Compile Update="AdminPanelClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Clients.cs">
+    <Compile Update="MainAdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminPanelReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientInfo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Main.cs">
+    <Compile Update="MainClientPanel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="New.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Reservations.cs">
+    <Compile Update="ClientReservation.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

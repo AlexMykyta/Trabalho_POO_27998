@@ -1,6 +1,6 @@
 ﻿namespace Trabalho_POO
 {
-    partial class Reservations
+    partial class ClientInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -34,23 +34,21 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(1, -1);
+            label1.Location = new Point(145, 72);
             label1.Name = "label1";
-            label1.Size = new Size(440, 86);
+            label1.Size = new Size(87, 15);
             label1.TabIndex = 0;
-            label1.Text = "Teste Reservas";
+            label1.Text = "INFO CLIENTES";
             // 
-            // Reservations
+            // ClientInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1138, 643);
+            ClientSize = new Size(800, 450);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Reservations";
-            Text = "Reservations";
-            Load += Reservations_Load;
+            Name = "ClientInfo";
+            Text = "ClientInfo";
             ResumeLayout(false);
             PerformLayout();
         }

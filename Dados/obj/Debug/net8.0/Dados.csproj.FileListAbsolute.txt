@@ -15,3 +15,4 @@ C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.dll
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\refint\Dados.dll
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.pdb
 C:\TrabalhoPOO\Dados\obj\Debug\net8.0\ref\Dados.dll
+C:\TrabalhoPOO\Dados\obj\Debug\net8.0\Dados.sourcelink.json

@@ -116,3 +116,4 @@ C:\TrabalhoPOO\Tests\obj\Debug\net8.0\refint\Tests.dll
 C:\TrabalhoPOO\Tests\obj\Debug\net8.0\Tests.pdb
 C:\TrabalhoPOO\Tests\obj\Debug\net8.0\Tests.genruntimeconfig.cache
 C:\TrabalhoPOO\Tests\obj\Debug\net8.0\ref\Tests.dll
+C:\TrabalhoPOO\Tests\obj\Debug\net8.0\Tests.sourcelink.json

@@ -40,7 +40,7 @@ namespace Trabalho_POO
                 if(textEmail == "Admin" && textPassWord == "Admin")
                 {
 
-                    AdminPainel AdminPainel = new AdminPainel();
+                    MainAdminPanel AdminPainel = new MainAdminPanel();
                     this.Hide();
                     AdminPainel.Show();
                 }
@@ -60,7 +60,7 @@ namespace Trabalho_POO
                         throw new WrongPasswordException();
                     }
 
-                    Main Main = new Main();
+                    MainClientPanel Main = new MainClientPanel();
                     this.Hide();
                     Main.Show();
                 }  

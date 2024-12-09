@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Trabalho_POO
 {
-    public partial class Clients : Form
+    public partial class ClientReservation : Form
     {
-        public Clients()
+        public ClientReservation()
         {
             InitializeComponent();
         }
 
-        private void Clients_Load(object sender, EventArgs e)
+        private void Reservations_Load(object sender, EventArgs e)
         {
 
         }

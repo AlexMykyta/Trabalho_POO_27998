@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Excecoes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+265debb61e721f90d604abba4c246e10d27f9a88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+988533ef8424e7e3704abed81fde46a162ff48b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Excecoes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Excecoes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

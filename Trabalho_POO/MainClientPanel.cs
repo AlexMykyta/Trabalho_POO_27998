@@ -1,13 +1,14 @@
 namespace Trabalho_POO
 {
-    public partial class Main : Form
+    public partial class MainClientPanel : Form
     {
-        Reservations reservations;
-        Clients clients;
+        ClientReservation reservations;
+        AdminPanelReservation clients;
         Login login;
         New create;
+        ClientInfo clientInfo;
 
-        public Main()
+        public MainClientPanel()
         {
             InitializeComponent();
         }
@@ -27,7 +28,7 @@ namespace Trabalho_POO
 
             sideBar.Visible = true;
             btSideBar.Visible = true;
-  
+
         }
 
         private void Login_OnLoginSuccess()
@@ -76,12 +77,12 @@ namespace Trabalho_POO
         bool menuExpand = false;
         private void menuTransition_Tick(object sender, EventArgs e)
         {
-           
+
         }
 
         private void btManage_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         bool sideBarExpand = true;
@@ -116,7 +117,7 @@ namespace Trabalho_POO
         {
             if (reservations == null)
             {
-                reservations = new Reservations();
+                reservations = new ClientReservation();
                 reservations.FormClosed += Reservations_FormClosed;
                 reservations.MdiParent = this;
                 reservations.Dock = DockStyle.Fill;
@@ -137,7 +138,7 @@ namespace Trabalho_POO
         {
             if (clients == null)
             {
-                clients = new Clients();
+                clients = new AdminPanelReservation();
                 clients.FormClosed += Clients_FormClosed; ;
                 clients.MdiParent = this;
                 clients.Dock = DockStyle.Fill;
@@ -166,6 +167,30 @@ namespace Trabalho_POO
         }
 
         private void btAbout_Click(object sender, EventArgs e)
+        {
+            if (clientInfo == null)
+            {
+                clientInfo = new ClientInfo();
+                clientInfo.FormClosed += Clients_FormClosed;
+                clientInfo.MdiParent = this;
+                clientInfo.Dock = DockStyle.Fill;
+                clientInfo.Show();
+            }
+            else
+            {
+                clientInfo.Activate();
+            }
+        }
+
+        private void btLogOut_Click(object sender, EventArgs e)
+        {
+            Login Login = new Login();
+
+            this.Hide();
+            Login.Show();
+        }
+
+        private void nightControlBox1_Click(object sender, EventArgs e)
         {
 
         }

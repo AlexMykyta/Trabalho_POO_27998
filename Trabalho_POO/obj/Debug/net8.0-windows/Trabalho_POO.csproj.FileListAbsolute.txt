@@ -109,12 +109,9 @@ C:\TrabalhoPOO\Trabalho_POO\bin\Debug\net8.0-windows\Excecoes.pdb
 C:\TrabalhoPOO\Trabalho_POO\bin\Debug\net8.0-windows\Objects.pdb
 C:\TrabalhoPOO\Trabalho_POO\bin\Debug\net8.0-windows\Tests.pdb
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.csproj.AssemblyReference.cache
-C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.Clients.resources
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.Login.resources
-C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.Main.resources
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.New.resources
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.Properties.Resources.resources
-C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.Reservations.resources
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.csproj.GenerateResource.cache
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.GeneratedMSBuildEditorConfig.editorconfig
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AssemblyInfoInputs.cache
@@ -127,4 +124,9 @@ C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.pdb
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.genruntimeconfig.cache
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\ref\Trabalho_POO.dll
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.sourcelink.json
-C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AdminPainel.resources
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.ClientInfo.resources
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.ClientReservation.resources
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.MainAdminPanel.resources
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.MainClientPanel.resources
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AdminPanelClient.resources
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AdminPanelReservation.resources

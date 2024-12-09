@@ -13,3 +13,4 @@ C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.dll
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\refint\Objects.dll
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.pdb
 C:\TrabalhoPOO\Objects\obj\Debug\net8.0\ref\Objects.dll
+C:\TrabalhoPOO\Objects\obj\Debug\net8.0\Objects.sourcelink.json

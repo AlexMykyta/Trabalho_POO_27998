@@ -1,6 +1,6 @@
 ﻿namespace Trabalho_POO
 {
-    partial class Main
+    partial class MainClientPanel
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainClientPanel));
             nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             label1 = new Label();
             btSideBar = new PictureBox();
@@ -67,6 +67,7 @@
             nightControlBox1.Name = "nightControlBox1";
             nightControlBox1.Size = new Size(139, 31);
             nightControlBox1.TabIndex = 1;
+            nightControlBox1.Click += nightControlBox1_Click;
             // 
             // label1
             // 
@@ -168,6 +169,7 @@
             btLogOut.TabIndex = 6;
             btLogOut.Text = "    Logout";
             btLogOut.UseVisualStyleBackColor = false;
+            btLogOut.Click += btLogOut_Click;
             // 
             // menuTransition
             // 
@@ -178,7 +180,7 @@
             sideBarTransition.Interval = 10;
             sideBarTransition.Tick += sideBarTransition_Tick;
             // 
-            // Main
+            // MainClientPanel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -189,7 +191,7 @@
             ForeColor = SystemColors.ControlLightLight;
             FormBorderStyle = FormBorderStyle.None;
             IsMdiContainer = true;
-            Name = "Main";
+            Name = "MainClientPanel";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)btSideBar).EndInit();

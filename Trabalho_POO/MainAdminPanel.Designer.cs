@@ -1,6 +1,6 @@
 ﻿namespace Trabalho_POO
 {
-    partial class AdminPainel
+    partial class MainAdminPanel
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminPainel));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainAdminPanel));
             panel2 = new Panel();
             label1 = new Label();
             nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
@@ -64,9 +64,10 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(74, 8);
             label1.Name = "label1";
-            label1.Size = new Size(225, 21);
+            label1.Size = new Size(65, 21);
             label1.TabIndex = 2;
-            label1.Text = "Gestão Alojamento Turístico";
+            label1.Text = "Admin ";
+            label1.Click += label1_Click;
             // 
             // nightControlBox1
             // 
@@ -130,6 +131,7 @@
             button1.TabIndex = 7;
             button1.Text = "    Reservations";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // btClientManagement
             // 
@@ -147,6 +149,7 @@
             btClientManagement.TabIndex = 6;
             btClientManagement.Text = "    Reservations";
             btClientManagement.UseVisualStyleBackColor = false;
+            btClientManagement.Click += btClientManagement_Click;
             // 
             // btLogOut
             // 
@@ -164,12 +167,13 @@
             btLogOut.TabIndex = 6;
             btLogOut.Text = "    Logout";
             btLogOut.UseVisualStyleBackColor = false;
+            btLogOut.Click += btLogOut_Click;
             // 
             // SideBarTime
             // 
             SideBarTime.Tick += timer1_Tick;
             // 
-            // AdminPainel
+            // MainAdminPanel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -177,7 +181,8 @@
             Controls.Add(sideBar);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "AdminPainel";
+            IsMdiContainer = true;
+            Name = "MainAdminPanel";
             Text = "AdminPainel";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

@@ -1,6 +1,6 @@
 ﻿namespace Trabalho_POO
 {
-    partial class Clients
+    partial class AdminPanelReservation
     {
         /// <summary>
         /// Required designer variable.
@@ -35,20 +35,20 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(1, 9);
+            label1.Location = new Point(124, 227);
             label1.Name = "label1";
-            label1.Size = new Size(421, 86);
+            label1.Size = new Size(738, 86);
             label1.TabIndex = 1;
-            label1.Text = "Teste Clientes";
+            label1.Text = "Admin Panel Reservation";
             // 
-            // Clients
+            // AdminPanelReservation
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1138, 643);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Clients";
+            Name = "AdminPanelReservation";
             Text = "Clients";
             Load += Clients_Load;
             ResumeLayout(false);
