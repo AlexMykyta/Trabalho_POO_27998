@@ -37,6 +37,7 @@
             sideBar = new FlowLayoutPanel();
             button1 = new Button();
             btClientManagement = new Button();
+            button2 = new Button();
             btLogOut = new Button();
             SideBarTime = new System.Windows.Forms.Timer(components);
             panel2.SuspendLayout();
@@ -53,8 +54,9 @@
             panel2.Dock = DockStyle.Top;
             panel2.ForeColor = Color.Transparent;
             panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(800, 41);
+            panel2.Size = new Size(1282, 55);
             panel2.TabIndex = 5;
             // 
             // label1
@@ -62,9 +64,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(74, 8);
+            label1.Location = new Point(131, 13);
             label1.Name = "label1";
-            label1.Size = new Size(65, 21);
+            label1.Size = new Size(80, 28);
             label1.TabIndex = 2;
             label1.Text = "Admin ";
             label1.Click += label1_Click;
@@ -83,7 +85,7 @@
             nightControlBox1.EnableMaximizeColor = Color.Black;
             nightControlBox1.EnableMinimizeButton = true;
             nightControlBox1.EnableMinimizeColor = Color.Black;
-            nightControlBox1.Location = new Point(661, 0);
+            nightControlBox1.Location = new Point(1143, 0);
             nightControlBox1.MaximizeHoverColor = Color.FromArgb(15, 255, 255, 255);
             nightControlBox1.MaximizeHoverForeColor = Color.White;
             nightControlBox1.MinimizeHoverColor = Color.FromArgb(15, 255, 255, 255);
@@ -95,9 +97,10 @@
             // btSideBar
             // 
             btSideBar.Image = (Image)resources.GetObject("btSideBar.Image");
-            btSideBar.Location = new Point(10, 4);
+            btSideBar.Location = new Point(11, 5);
+            btSideBar.Margin = new Padding(3, 4, 3, 4);
             btSideBar.Name = "btSideBar";
-            btSideBar.Size = new Size(58, 27);
+            btSideBar.Size = new Size(86, 36);
             btSideBar.SizeMode = PictureBoxSizeMode.CenterImage;
             btSideBar.TabIndex = 1;
             btSideBar.TabStop = false;
@@ -108,11 +111,13 @@
             sideBar.BackColor = SystemColors.ControlDarkDark;
             sideBar.Controls.Add(button1);
             sideBar.Controls.Add(btClientManagement);
+            sideBar.Controls.Add(button2);
             sideBar.Controls.Add(btLogOut);
             sideBar.Dock = DockStyle.Left;
-            sideBar.Location = new Point(0, 41);
+            sideBar.Location = new Point(0, 55);
+            sideBar.Margin = new Padding(3, 4, 3, 4);
             sideBar.Name = "sideBar";
-            sideBar.Size = new Size(83, 409);
+            sideBar.Size = new Size(105, 545);
             sideBar.TabIndex = 6;
             // 
             // button1
@@ -124,12 +129,13 @@
             button1.ForeColor = Color.White;
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(3, 3);
+            button1.Location = new Point(3, 4);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Padding = new Padding(30, 0, 45, 0);
-            button1.Size = new Size(248, 54);
+            button1.Padding = new Padding(34, 0, 51, 0);
+            button1.Size = new Size(283, 72);
             button1.TabIndex = 7;
-            button1.Text = "    Reservations";
+            button1.Text = "   Clientes";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -142,14 +148,34 @@
             btClientManagement.ForeColor = Color.White;
             btClientManagement.Image = (Image)resources.GetObject("btClientManagement.Image");
             btClientManagement.ImageAlign = ContentAlignment.MiddleLeft;
-            btClientManagement.Location = new Point(3, 63);
+            btClientManagement.Location = new Point(3, 84);
+            btClientManagement.Margin = new Padding(3, 4, 3, 4);
             btClientManagement.Name = "btClientManagement";
-            btClientManagement.Padding = new Padding(30, 0, 45, 0);
-            btClientManagement.Size = new Size(248, 54);
+            btClientManagement.Padding = new Padding(34, 0, 51, 0);
+            btClientManagement.Size = new Size(283, 72);
             btClientManagement.TabIndex = 6;
-            btClientManagement.Text = "    Reservations";
+            btClientManagement.Text = "        Alojamentos";
             btClientManagement.UseVisualStyleBackColor = false;
             btClientManagement.Click += btClientManagement_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ControlDarkDark;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.ImageAlign = ContentAlignment.MiddleLeft;
+            button2.Location = new Point(3, 164);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Padding = new Padding(34, 0, 51, 0);
+            button2.Size = new Size(283, 72);
+            button2.TabIndex = 8;
+            button2.Text = "            Reservados";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // btLogOut
             // 
@@ -160,10 +186,11 @@
             btLogOut.ForeColor = Color.White;
             btLogOut.Image = (Image)resources.GetObject("btLogOut.Image");
             btLogOut.ImageAlign = ContentAlignment.MiddleLeft;
-            btLogOut.Location = new Point(3, 123);
+            btLogOut.Location = new Point(3, 244);
+            btLogOut.Margin = new Padding(3, 4, 3, 4);
             btLogOut.Name = "btLogOut";
-            btLogOut.Padding = new Padding(30, 0, 45, 0);
-            btLogOut.Size = new Size(245, 51);
+            btLogOut.Padding = new Padding(34, 0, 51, 0);
+            btLogOut.Size = new Size(280, 68);
             btLogOut.TabIndex = 6;
             btLogOut.Text = "    Logout";
             btLogOut.UseVisualStyleBackColor = false;
@@ -175,13 +202,14 @@
             // 
             // MainAdminPanel
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1282, 600);
             Controls.Add(sideBar);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
             IsMdiContainer = true;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MainAdminPanel";
             Text = "AdminPainel";
             Load += MainAdminPanel_Load;
@@ -203,5 +231,6 @@
         private Button btLogOut;
         private Button button1;
         private System.Windows.Forms.Timer SideBarTime;
+        private Button button2;
     }
 }

@@ -28,34 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            dataGridView1 = new DataGridView();
+            ColumName = new DataGridViewTextBoxColumn();
+            ColumEmail = new DataGridViewTextBoxColumn();
+            ColumDataNascimento = new DataGridViewTextBoxColumn();
+            ColumnPass = new DataGridViewTextBoxColumn();
+            ColmunTypeUser = new DataGridViewTextBoxColumn();
+            btnRemove = new DataGridViewButtonColumn();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // dataGridView1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(298, 156);
-            label1.Name = "label1";
-            label1.Size = new Size(125, 15);
-            label1.TabIndex = 0;
-            label1.Text = "ADMIN PANEL CLIENT";
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ColumName, ColumEmail, ColumDataNascimento, ColumnPass, ColmunTypeUser, btnRemove });
+            dataGridView1.Location = new Point(197, 67);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(802, 419);
+            dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // ColumName
+            // 
+            ColumName.HeaderText = "Nome";
+            ColumName.MinimumWidth = 6;
+            ColumName.Name = "ColumName";
+            ColumName.ReadOnly = true;
+            ColumName.Width = 125;
+            // 
+            // ColumEmail
+            // 
+            ColumEmail.HeaderText = "E-mail";
+            ColumEmail.MinimumWidth = 6;
+            ColumEmail.Name = "ColumEmail";
+            ColumEmail.ReadOnly = true;
+            ColumEmail.Width = 125;
+            // 
+            // ColumDataNascimento
+            // 
+            ColumDataNascimento.HeaderText = "Data de Nascimento";
+            ColumDataNascimento.MinimumWidth = 6;
+            ColumDataNascimento.Name = "ColumDataNascimento";
+            ColumDataNascimento.ReadOnly = true;
+            ColumDataNascimento.Width = 125;
+            // 
+            // ColumnPass
+            // 
+            ColumnPass.HeaderText = "PassWord";
+            ColumnPass.MinimumWidth = 6;
+            ColumnPass.Name = "ColumnPass";
+            ColumnPass.ReadOnly = true;
+            ColumnPass.Width = 125;
+            // 
+            // ColmunTypeUser
+            // 
+            ColmunTypeUser.HeaderText = "Type User";
+            ColmunTypeUser.MinimumWidth = 6;
+            ColmunTypeUser.Name = "ColmunTypeUser";
+            ColmunTypeUser.ReadOnly = true;
+            ColmunTypeUser.Width = 125;
+            // 
+            // btnRemove
+            // 
+            btnRemove.HeaderText = "Remover";
+            btnRemove.MinimumWidth = 6;
+            btnRemove.Name = "btnRemove";
+            btnRemove.ReadOnly = true;
+            btnRemove.Width = 125;
             // 
             // AdminPanelClient
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.Disable;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            ClientSize = new Size(1219, 600);
+            Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AdminPanelClient";
             Text = "AdminPanelClient";
+            Load += AdminPanelClient_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn ColumName;
+        private DataGridViewTextBoxColumn ColumEmail;
+        private DataGridViewTextBoxColumn ColumDataNascimento;
+        private DataGridViewTextBoxColumn ColumnPass;
+        private DataGridViewTextBoxColumn ColmunTypeUser;
+        private DataGridViewButtonColumn btnRemove;
     }
 }

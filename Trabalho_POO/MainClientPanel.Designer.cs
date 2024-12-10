@@ -59,7 +59,7 @@
             nightControlBox1.EnableMaximizeColor = Color.Black;
             nightControlBox1.EnableMinimizeButton = true;
             nightControlBox1.EnableMinimizeColor = Color.Black;
-            nightControlBox1.Location = new Point(879, 0);
+            nightControlBox1.Location = new Point(1061, 0);
             nightControlBox1.MaximizeHoverColor = Color.FromArgb(15, 255, 255, 255);
             nightControlBox1.MaximizeHoverForeColor = Color.White;
             nightControlBox1.MinimizeHoverColor = Color.FromArgb(15, 255, 255, 255);
@@ -74,18 +74,19 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(74, 8);
+            label1.Location = new Point(85, 11);
             label1.Name = "label1";
-            label1.Size = new Size(225, 21);
+            label1.Size = new Size(281, 28);
             label1.TabIndex = 2;
             label1.Text = "Gestão Alojamento Turístico";
             // 
             // btSideBar
             // 
             btSideBar.Image = (Image)resources.GetObject("btSideBar.Image");
-            btSideBar.Location = new Point(10, 4);
+            btSideBar.Location = new Point(11, 5);
+            btSideBar.Margin = new Padding(3, 4, 3, 4);
             btSideBar.Name = "btSideBar";
-            btSideBar.Size = new Size(58, 27);
+            btSideBar.Size = new Size(66, 36);
             btSideBar.SizeMode = PictureBoxSizeMode.CenterImage;
             btSideBar.TabIndex = 1;
             btSideBar.TabStop = false;
@@ -100,8 +101,9 @@
             panel2.Dock = DockStyle.Top;
             panel2.ForeColor = Color.Transparent;
             panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1018, 41);
+            panel2.Size = new Size(1219, 55);
             panel2.TabIndex = 4;
             panel2.Paint += panel2_Paint;
             // 
@@ -112,9 +114,10 @@
             sideBar.Controls.Add(btAbout);
             sideBar.Controls.Add(btLogOut);
             sideBar.Dock = DockStyle.Left;
-            sideBar.Location = new Point(0, 41);
+            sideBar.Location = new Point(0, 55);
+            sideBar.Margin = new Padding(3, 4, 3, 4);
             sideBar.Name = "sideBar";
-            sideBar.Size = new Size(83, 490);
+            sideBar.Size = new Size(95, 545);
             sideBar.TabIndex = 3;
             // 
             // btReservations
@@ -126,10 +129,11 @@
             btReservations.ForeColor = Color.White;
             btReservations.Image = (Image)resources.GetObject("btReservations.Image");
             btReservations.ImageAlign = ContentAlignment.MiddleLeft;
-            btReservations.Location = new Point(3, 3);
+            btReservations.Location = new Point(3, 4);
+            btReservations.Margin = new Padding(3, 4, 3, 4);
             btReservations.Name = "btReservations";
-            btReservations.Padding = new Padding(30, 0, 45, 0);
-            btReservations.Size = new Size(248, 54);
+            btReservations.Padding = new Padding(34, 0, 51, 0);
+            btReservations.Size = new Size(283, 72);
             btReservations.TabIndex = 6;
             btReservations.Text = "    Reservations";
             btReservations.UseVisualStyleBackColor = false;
@@ -144,10 +148,11 @@
             btAbout.ForeColor = Color.White;
             btAbout.Image = (Image)resources.GetObject("btAbout.Image");
             btAbout.ImageAlign = ContentAlignment.MiddleLeft;
-            btAbout.Location = new Point(3, 63);
+            btAbout.Location = new Point(3, 84);
+            btAbout.Margin = new Padding(3, 4, 3, 4);
             btAbout.Name = "btAbout";
-            btAbout.Padding = new Padding(30, 0, 45, 0);
-            btAbout.Size = new Size(245, 54);
+            btAbout.Padding = new Padding(34, 0, 51, 0);
+            btAbout.Size = new Size(280, 72);
             btAbout.TabIndex = 6;
             btAbout.Text = "    About";
             btAbout.UseVisualStyleBackColor = false;
@@ -162,10 +167,11 @@
             btLogOut.ForeColor = Color.White;
             btLogOut.Image = (Image)resources.GetObject("btLogOut.Image");
             btLogOut.ImageAlign = ContentAlignment.MiddleLeft;
-            btLogOut.Location = new Point(3, 123);
+            btLogOut.Location = new Point(3, 164);
+            btLogOut.Margin = new Padding(3, 4, 3, 4);
             btLogOut.Name = "btLogOut";
-            btLogOut.Padding = new Padding(30, 0, 45, 0);
-            btLogOut.Size = new Size(245, 51);
+            btLogOut.Padding = new Padding(34, 0, 51, 0);
+            btLogOut.Size = new Size(280, 68);
             btLogOut.TabIndex = 6;
             btLogOut.Text = "    Logout";
             btLogOut.UseVisualStyleBackColor = false;
@@ -182,15 +188,16 @@
             // 
             // MainClientPanel
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(1018, 531);
+            ClientSize = new Size(1219, 600);
             Controls.Add(sideBar);
             Controls.Add(panel2);
             ForeColor = SystemColors.ControlLightLight;
             FormBorderStyle = FormBorderStyle.None;
             IsMdiContainer = true;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MainClientPanel";
             Text = "Form1";
             Load += Form1_Load;

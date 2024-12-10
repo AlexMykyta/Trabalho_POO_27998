@@ -37,9 +37,14 @@ namespace Trabalho_POO
 
             try
             {
-                if(textEmail == "Admin" && textPassWord == "Admin")
+                // Certifica-te de que `users` está carregado
+                if (users == null || users.Count == 0)
                 {
+                    users = UserManager.LoadUsers(); // Carrega os utilizadores
+                }
 
+                if (textEmail == "Admin" && textPassWord == "Admin")
+                {
                     MainAdminPanel AdminPainel = new MainAdminPanel();
                     this.Hide();
                     AdminPainel.Show();
@@ -63,7 +68,7 @@ namespace Trabalho_POO
                     MainClientPanel Main = new MainClientPanel();
                     this.Hide();
                     Main.Show();
-                }  
+                }
             }
             catch (NullArgumentException ex)
             {
@@ -82,6 +87,7 @@ namespace Trabalho_POO
                 MessageBox.Show($"Erro inesperado: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private void ValidateFields(string email, string password)
         {

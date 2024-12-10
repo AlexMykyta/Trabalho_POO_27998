@@ -39,21 +39,25 @@ namespace Trabalho_POO
                 bool dinnerIncluded = checkBoxDinner.Checked;
                 decimal price = decimal.Parse(txtPrice.Text);
 
-                // Criar um novo alojamento
-                Accomodation newAccomodation = new Accomodation(id, name, bedType, capacity, seaView, breakfastIncluded, dinnerIncluded, price);
+                // O alojamento será criado como ativo por padrão
+                bool isActive = true;
 
+                // Criar um novo alojamento
+                Accomodation newAccomodation = new Accomodation(id, name, bedType, capacity, seaView, breakfastIncluded, dinnerIncluded, price, isActive);
+
+                // Guardar os dados no ficheiro
                 SaveToFile(newAccomodation);
 
+                // Mensagem de sucesso
                 MessageBox.Show("Alojamento criado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                // Limpar os campos do formulário
                 ClearForm();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao criar alojamento: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
         }
 
         private int GenerateUniqueID()

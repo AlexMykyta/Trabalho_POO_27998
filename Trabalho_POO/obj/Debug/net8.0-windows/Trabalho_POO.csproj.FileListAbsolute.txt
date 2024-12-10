@@ -131,3 +131,4 @@ C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.MainClientPane
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AdminPanelClient.resources
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AdminPanelReservation.resources
 C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.CreateAccomodationAdmin.resources
+C:\TrabalhoPOO\Trabalho_POO\obj\Debug\net8.0-windows\Trabalho_POO.AdminPanelClientReserv.resources

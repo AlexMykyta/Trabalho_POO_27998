@@ -4,6 +4,7 @@
     {
         AdminPanelClient adminpanelclient;
         AdminPanelReservation adminpanelreservations;
+        AdminPanelClientReserv adminpanelclientreserv;
         public MainAdminPanel()
         {
             InitializeComponent();
@@ -106,6 +107,27 @@
             {
                 adminpanelclient.Activate();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (adminpanelclientreserv == null)
+            {
+                adminpanelclientreserv = new AdminPanelClientReserv();
+                adminpanelclientreserv.FormClosed += Adminpanelclientreserv_FormClosed; 
+                adminpanelclientreserv.MdiParent = this;
+                adminpanelclientreserv.Dock = DockStyle.Fill;
+                adminpanelclientreserv.Show();
+            }
+            else
+            {
+                adminpanelclientreserv.Activate();
+            }
+        }
+
+        private void Adminpanelclientreserv_FormClosed(object? sender, FormClosedEventArgs e)
+        {
+           
         }
     }
 }

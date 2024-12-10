@@ -38,7 +38,7 @@
             label1.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(1, -1);
             label1.Name = "label1";
-            label1.Size = new Size(681, 86);
+            label1.Size = new Size(851, 106);
             label1.TabIndex = 0;
             label1.Text = "Teste Reservas Clientes";
             // 
@@ -47,23 +47,25 @@
             airButton1.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w==";
             airButton1.Font = new Font("Segoe UI", 9F);
             airButton1.Image = null;
-            airButton1.Location = new Point(300, 240);
+            airButton1.Location = new Point(343, 320);
+            airButton1.Margin = new Padding(3, 4, 3, 4);
             airButton1.Name = "airButton1";
             airButton1.NoRounding = false;
-            airButton1.Size = new Size(100, 45);
+            airButton1.Size = new Size(114, 60);
             airButton1.TabIndex = 1;
             airButton1.Text = "airButton1";
             airButton1.Transparent = false;
             // 
-            // Reservations
+            // ClientReservation
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1138, 643);
+            ClientSize = new Size(1219, 600);
             Controls.Add(airButton1);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Reservations";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "ClientReservation";
             Text = "Reservations";
             Load += Reservations_Load;
             ResumeLayout(false);

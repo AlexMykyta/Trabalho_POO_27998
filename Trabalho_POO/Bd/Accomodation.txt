@@ -1,2 +1,2 @@
-1;Alexandre;Cama de Casal;2;True;True;True;100
-2;Diogo;Cama de Casal;2;True;True;True;1000
+1;Alexandre;Cama de Casal;1;True;True;True;100;True
+2;Solar da torre;Cama de Solteiro;9;True;True;True;100;True

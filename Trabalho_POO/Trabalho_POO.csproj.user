@@ -5,6 +5,9 @@
     <Compile Update="AdminPanelClient.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AdminPanelClientReserv.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CreateAccomodationAdmin.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,23 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Objects
+﻿namespace Utilities
 {
-    using System.IO;
-
-    public class Registry
+    public static class Registry
     {
-        public void SaveToFile(string fileName, string content)
+        // Método genérico para carregar dados de ficheiro
+        public static List<T> LoadFromFile<T>(string filePath, Func<string, T> parseLine)
         {
-            File.WriteAllText(fileName, content);
-        }
+            var items = new List<T>();
 
-        public string LoadFromFile(string fileName)
-        {
-            return File.Exists(fileName) ? File.ReadAllText(fileName) : string.Empty;
+            if (!File.Exists(filePath))
+            {
+                throw new FileNotFoundException($"O ficheiro não foi encontrado: {filePath}");
+            }
+
+            var lines = File.ReadAllLines(filePath);
+
+            foreach (var line in lines)
+            {
+                if (!string.IsNullOrWhiteSpace(line))
+                {
+                    try
+                    {
+                        // Parse da linha usando o método fornecido
+                        var item = parseLine(line);
+                        items.Add(item);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Erro ao processar a linha: {line}. Erro: {ex.Message}");
+                    }
+                }
+            }
+
+            return items;
         }
     }
 
