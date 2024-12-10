@@ -15,6 +15,19 @@ namespace Trabalho_POO
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            if (reservations == null)
+            {
+                reservations = new ClientReservation();
+                reservations.FormClosed += Reservations_FormClosed;
+                reservations.MdiParent = this;
+                reservations.Dock = DockStyle.Fill;
+                reservations.Show();
+            }
+            else
+            {
+                reservations.Activate();
+            }
+
             HideSideBar();
         }
 

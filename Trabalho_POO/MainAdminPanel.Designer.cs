@@ -184,6 +184,7 @@
             IsMdiContainer = true;
             Name = "MainAdminPanel";
             Text = "AdminPainel";
+            Load += MainAdminPanel_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)btSideBar).EndInit();

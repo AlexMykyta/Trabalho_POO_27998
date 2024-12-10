@@ -1,34 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Objects
+﻿namespace Objects
 {
-    public class Accommodation
+    public class Accomodation
     {
-        public string Name { get; set; }
-        public string Type { get; set; } // Ex: "Quarto", "Apartamento", etc.
-        public int Capacity { get; set; }
-        public decimal PricePerNight { get; set; }
-        public bool BreakfastIncluded { get; set; }
-        public bool HasSeaView { get; set; }
+        // Propriedades
+        public int ID { get; set; }
+        public string Name { get; set; }           // TextBox
+        public string BedType { get; set; }       // ComboBox
+        public int Capacity { get; set; }         // ComboBox
+        public bool SeaView { get; set; }         // CheckBox
+        public bool BreakfastIncluded { get; set; } // CheckBox
+        public bool DinnerIncluded { get; set; }  // CheckBox
+        public decimal Price { get; set; }        // TextBox (convertido para decimal)
 
-        public Accommodation(string name, string type, int capacity, decimal pricePerNight, bool breakfastIncluded, bool hasSeaView)
+        // Construtor
+        public Accomodation(int id,string name, string bedType, int capacity, bool seaView, bool breakfastIncluded, bool dinnerIncluded, decimal price)
         {
+            ID = id;
             Name = name;
-            Type = type;
+            BedType = bedType;
             Capacity = capacity;
-            PricePerNight = pricePerNight;
+            SeaView = seaView;
             BreakfastIncluded = breakfastIncluded;
-            HasSeaView = hasSeaView;
+            DinnerIncluded = dinnerIncluded;
+            Price = price;
         }
 
         public override string ToString()
         {
-            return $"{Name} ({Type}) - Capacidade: {Capacity}, Preço por noite: {PricePerNight:C}";
+            return $"{ID};{Name};{BedType};{Capacity};{SeaView};{BreakfastIncluded};{DinnerIncluded};{Price}";
         }
     }
-
 }

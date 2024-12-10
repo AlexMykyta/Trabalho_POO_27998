@@ -9,12 +9,12 @@ namespace Objects
     public class Reservation
     {
         public User Client { get; set; }
-        public Accommodation Accommodation { get; set; }
+        public Accomodation Accommodation { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string Status { get; set; } // "Pendente", "Aprovada", "Recusada"
 
-        public Reservation(User client, Accommodation accommodation, DateTime startDate, DateTime endDate)
+        public Reservation(User client, Accomodation accommodation, DateTime startDate, DateTime endDate)
         {
             Client = client;
             Accommodation = accommodation;

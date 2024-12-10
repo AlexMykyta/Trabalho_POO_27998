@@ -21,5 +21,13 @@ namespace Trabalho_POO
         {
 
         }
+
+        private void btnCreateAcco_Click(object sender, EventArgs e)
+        {
+            CreateAccomodationAdmin createAccomodationForm = new CreateAccomodationAdmin();
+
+            createAccomodationForm.ShowDialog();
+
+        }
     }
 }

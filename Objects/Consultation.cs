@@ -8,7 +8,7 @@ namespace Objects
 {
     public class Consultation
     {
-        public List<Accommodation> ListAvailableAccommodations(List<Accommodation> accommodations)
+        public List<Accomodation> ListAvailableAccommodations(List<Accomodation> accommodations)
         {
             return accommodations.Where(a => true /* lógica para verificar disponibilidade */).ToList();
         }

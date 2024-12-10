@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\TrabalhoPOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\mainclientpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\mainclientpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\mainadminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\mainadminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\adminpanelreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\adminpanelreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\mainadminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\mainadminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\createaccomodationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\createaccomodationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\accommodation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\accommodation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\registry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\registry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|c:\\trabalhopoo\\objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B384B6-35BE-4397-97FE-FF8057EB670F}|Objects\\Objects.csproj|solutionrelative:objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|c:\\trabalhopoo\\trabalho_poo\\createaccomodationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05DA9B3A-41F4-469E-A405-E8DB5B86CC0E}|Trabalho_POO\\Trabalho_POO.csproj|solutionrelative:trabalho_poo\\createaccomodationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +62,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainAdminPanel.cs",
-              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\MainAdminPanel.cs",
-              "RelativeDocumentMoniker": "Trabalho_POO\\MainAdminPanel.cs",
-              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\MainAdminPanel.cs",
-              "RelativeToolTip": "Trabalho_POO\\MainAdminPanel.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwC4AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Objects\\Reservation.cs",
+              "RelativeDocumentMoniker": "Objects\\Reservation.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Objects\\Reservation.cs",
+              "RelativeToolTip": "Objects\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:45:45.531Z",
+              "WhenOpened": "2024-12-10T14:15:20.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainClientPanel.cs [Projeto]",
-              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\MainClientPanel.cs",
-              "RelativeDocumentMoniker": "Trabalho_POO\\MainClientPanel.cs",
-              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\MainClientPanel.cs [Projeto]",
-              "RelativeToolTip": "Trabalho_POO\\MainClientPanel.cs [Projeto]",
+              "DocumentIndex": 4,
+              "Title": "Consultation.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Objects\\Consultation.cs",
+              "RelativeDocumentMoniker": "Objects\\Consultation.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Objects\\Consultation.cs",
+              "RelativeToolTip": "Objects\\Consultation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:42:25.342Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-12-10T14:15:14.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Objects\\User.cs",
+              "RelativeDocumentMoniker": "Objects\\User.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Objects\\User.cs",
+              "RelativeToolTip": "Objects\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:06:38.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainAdminPanel.cs [Projeto]",
-              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\MainAdminPanel.cs",
-              "RelativeDocumentMoniker": "Trabalho_POO\\MainAdminPanel.cs",
-              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\MainAdminPanel.cs [Projeto]",
-              "RelativeToolTip": "Trabalho_POO\\MainAdminPanel.cs [Projeto]",
+              "Title": "CreateAccomodationAdmin.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\CreateAccomodationAdmin.cs",
+              "RelativeDocumentMoniker": "Trabalho_POO\\CreateAccomodationAdmin.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\CreateAccomodationAdmin.cs",
+              "RelativeToolTip": "Trabalho_POO\\CreateAccomodationAdmin.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwGUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:42:20.51Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "New.cs [Projeto]",
-              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\New.cs",
-              "RelativeDocumentMoniker": "Trabalho_POO\\New.cs",
-              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\New.cs [Projeto]",
-              "RelativeToolTip": "Trabalho_POO\\New.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:41:19.909Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Projeto]",
-              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\Login.cs",
-              "RelativeDocumentMoniker": "Trabalho_POO\\Login.cs",
-              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\Login.cs [Projeto]",
-              "RelativeToolTip": "Trabalho_POO\\Login.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:40:57.496Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-12-10T14:05:53.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,10 +120,85 @@
               "RelativeDocumentMoniker": "Objects\\Accommodation.cs",
               "ToolTip": "C:\\TrabalhoPOO\\Objects\\Accommodation.cs",
               "RelativeToolTip": "Objects\\Accommodation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:34:54.385Z",
+              "WhenOpened": "2024-12-10T14:04:05.484Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPanelReservation.cs [Projeto]",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPanelReservation.cs",
+              "RelativeDocumentMoniker": "Trabalho_POO\\AdminPanelReservation.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\AdminPanelReservation.cs [Projeto]*",
+              "RelativeToolTip": "Trabalho_POO\\AdminPanelReservation.cs [Projeto]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:01:05.426Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainAdminPanel.cs [Projeto]",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\MainAdminPanel.cs",
+              "RelativeDocumentMoniker": "Trabalho_POO\\MainAdminPanel.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\MainAdminPanel.cs [Projeto]",
+              "RelativeToolTip": "Trabalho_POO\\MainAdminPanel.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:01:17.597Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Registry.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Objects\\Registry.cs",
+              "RelativeDocumentMoniker": "Objects\\Registry.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Objects\\Registry.cs",
+              "RelativeToolTip": "Objects\\Registry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:15:29.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Objects\\Program.cs",
+              "RelativeDocumentMoniker": "Objects\\Program.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Objects\\Program.cs",
+              "RelativeToolTip": "Objects\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:15:30.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckIn.cs",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Objects\\CheckIn.cs",
+              "RelativeDocumentMoniker": "Objects\\CheckIn.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Objects\\CheckIn.cs",
+              "RelativeToolTip": "Objects\\CheckIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:15:34.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateAccomodationAdmin.cs [Projeto]",
+              "DocumentMoniker": "C:\\TrabalhoPOO\\Trabalho_POO\\CreateAccomodationAdmin.cs",
+              "RelativeDocumentMoniker": "Trabalho_POO\\CreateAccomodationAdmin.cs",
+              "ToolTip": "C:\\TrabalhoPOO\\Trabalho_POO\\CreateAccomodationAdmin.cs [Projeto]",
+              "RelativeToolTip": "Trabalho_POO\\CreateAccomodationAdmin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:01:42.541Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

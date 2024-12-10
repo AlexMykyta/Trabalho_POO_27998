@@ -68,7 +68,7 @@
 
         private void Adminpanelclient_FormClosed(object? sender, FormClosedEventArgs e)
         {
-            throw new NotImplementedException();
+
         }
 
         private void btClientManagement_Click(object sender, EventArgs e)
@@ -89,7 +89,23 @@
 
         private void Adminpanelreservations_FormClosed(object? sender, FormClosedEventArgs e)
         {
-            throw new NotImplementedException();
+
+        }
+
+        private void MainAdminPanel_Load(object sender, EventArgs e)
+        {
+            if (adminpanelclient == null)
+            {
+                adminpanelclient = new AdminPanelClient();
+                adminpanelclient.FormClosed += Adminpanelclient_FormClosed;
+                adminpanelclient.MdiParent = this;
+                adminpanelclient.Dock = DockStyle.Fill;
+                adminpanelclient.Show();
+            }
+            else
+            {
+                adminpanelclient.Activate();
+            }
         }
     }
 }

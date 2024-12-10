@@ -28,35 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            btnCreateAcco = new Button();
             SuspendLayout();
             // 
-            // label1
+            // btnCreateAcco
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(124, 227);
-            label1.Name = "label1";
-            label1.Size = new Size(738, 86);
-            label1.TabIndex = 1;
-            label1.Text = "Admin Panel Reservation";
+            btnCreateAcco.Location = new Point(567, 45);
+            btnCreateAcco.Name = "btnCreateAcco";
+            btnCreateAcco.Size = new Size(128, 53);
+            btnCreateAcco.TabIndex = 2;
+            btnCreateAcco.Text = "Create Accomodation";
+            btnCreateAcco.UseVisualStyleBackColor = true;
+            btnCreateAcco.Click += btnCreateAcco_Click;
             // 
             // AdminPanelReservation
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1138, 643);
-            Controls.Add(label1);
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnCreateAcco);
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminPanelReservation";
             Text = "Clients";
             Load += Clients_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
+        private Button btnCreateAcco;
     }
 }
