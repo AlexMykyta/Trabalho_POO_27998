@@ -45,6 +45,7 @@
             txtPrice = new TextBox();
             btnCreateAcco = new Button();
             BtnBack = new Button();
+            label9 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -188,10 +189,12 @@
             txtPrice.Name = "txtPrice";
             txtPrice.Size = new Size(118, 23);
             txtPrice.TabIndex = 14;
+            txtPrice.TextChanged += txtPrice_TextChanged;
+            txtPrice.KeyPress += txtPrice_KeyPress;
             // 
             // btnCreateAcco
             // 
-            btnCreateAcco.Location = new Point(88, 429);
+            btnCreateAcco.Location = new Point(58, 434);
             btnCreateAcco.Name = "btnCreateAcco";
             btnCreateAcco.Size = new Size(124, 35);
             btnCreateAcco.TabIndex = 15;
@@ -209,11 +212,22 @@
             BtnBack.UseVisualStyleBackColor = true;
             BtnBack.Click += BtnBack_Click_1;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 18F);
+            label9.Location = new Point(188, 437);
+            label9.Name = "label9";
+            label9.Size = new Size(121, 32);
+            label9.TabIndex = 17;
+            label9.Text = "/por noite";
+            // 
             // CreateAccomodationAdmin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(311, 503);
+            Controls.Add(label9);
             Controls.Add(BtnBack);
             Controls.Add(btnCreateAcco);
             Controls.Add(txtPrice);
@@ -234,6 +248,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "CreateAccomodationAdmin";
             Text = "CreatAccomodationAdmin";
+            Load += CreateAccomodationAdmin_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -257,5 +272,6 @@
         private TextBox txtPrice;
         private Button btnCreateAcco;
         private Button BtnBack;
+        private Label label9;
     }
 }

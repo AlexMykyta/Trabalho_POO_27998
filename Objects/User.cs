@@ -29,6 +29,8 @@ public class User
         }
     }
 
+    
+
     #endregion
 
     #region OUTROS MÉTODOS

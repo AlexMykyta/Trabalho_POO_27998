@@ -28,53 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            airButton1 = new ReaLTaiizor.Controls.AirButton();
+            flpAccommodations = new FlowLayoutPanel();
             SuspendLayout();
             // 
-            // label1
+            // flpAccommodations
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(1, -1);
-            label1.Name = "label1";
-            label1.Size = new Size(851, 106);
-            label1.TabIndex = 0;
-            label1.Text = "Teste Reservas Clientes";
-            // 
-            // airButton1
-            // 
-            airButton1.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w==";
-            airButton1.Font = new Font("Segoe UI", 9F);
-            airButton1.Image = null;
-            airButton1.Location = new Point(343, 320);
-            airButton1.Margin = new Padding(3, 4, 3, 4);
-            airButton1.Name = "airButton1";
-            airButton1.NoRounding = false;
-            airButton1.Size = new Size(114, 60);
-            airButton1.TabIndex = 1;
-            airButton1.Text = "airButton1";
-            airButton1.Transparent = false;
+            flpAccommodations.Location = new Point(0, 32);
+            flpAccommodations.Name = "flpAccommodations";
+            flpAccommodations.Size = new Size(982, 418);
+            flpAccommodations.TabIndex = 0;
+            flpAccommodations.Paint += flpAccommodations_Paint;
             // 
             // ClientReservation
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1219, 600);
-            Controls.Add(airButton1);
-            Controls.Add(label1);
+            ClientSize = new Size(982, 450);
+            Controls.Add(flpAccommodations);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "ClientReservation";
             Text = "Reservations";
             Load += Reservations_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private ReaLTaiizor.Controls.AirButton airButton1;
+        private FlowLayoutPanel flpAccommodations;
     }
 }

@@ -42,11 +42,12 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ColumName, ColumEmail, ColumDataNascimento, ColumnPass, ColmunTypeUser, btnRemove });
-            dataGridView1.Location = new Point(197, 67);
+            dataGridView1.Location = new Point(96, 65);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(802, 419);
+            dataGridView1.Size = new Size(804, 314);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -100,13 +101,12 @@
             // 
             // AdminPanelClient
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.Disable;
-            ClientSize = new Size(1219, 600);
+            ClientSize = new Size(980, 450);
             Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "AdminPanelClient";
             Text = "AdminPanelClient";
             Load += AdminPanelClient_Load;

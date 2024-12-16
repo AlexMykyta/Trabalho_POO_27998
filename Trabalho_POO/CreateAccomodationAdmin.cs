@@ -81,14 +81,14 @@ namespace Trabalho_POO
                 }
             }
 
-            return maxID + 1; 
+            return maxID + 1;
         }
 
         private void SaveToFile(Accomodation accomodation)
         {
             string filePath = @"C:\TrabalhoPOO\Trabalho_POO\Bd\Accomodation.txt";
 
-            
+
             using (StreamWriter sw = new StreamWriter(filePath, true))
             {
                 sw.WriteLine(accomodation.ToString());
@@ -108,5 +108,25 @@ namespace Trabalho_POO
             this.Close();
         }
 
+        private void txtPrice_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateAccomodationAdmin_Load(object sender, EventArgs e)
+        {
+            cbTypeBed.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbCapacity.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            txtPrice.KeyPress += txtPrice_KeyPress;
+        }
+
+        private void txtPrice_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Ignora o input inválido
+            }
+        }
     }
 }
