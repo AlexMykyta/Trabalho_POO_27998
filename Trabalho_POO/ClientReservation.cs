@@ -37,20 +37,20 @@ namespace Trabalho_POO
                 {
                     var card = new Panel
                     {
-                        Width = 220, // Reduzir a largura
-                        Height = 180, // Reduzir a altura
+                        Width = 220, // Largura
+                        Height = 300, // Altura ajustada
                         BackColor = Color.White,
                         Margin = new Padding(10),
                         BorderStyle = BorderStyle.FixedSingle
                     };
 
-                    // Nome do Alojamento (Título no topo, com posição fixa)
+                    // Nome do Alojamento (Título)
                     var titleLabel = new Label
                     {
                         Text = accommodation.Name.ToUpper(),
                         Font = new Font("Segoe UI", 10, FontStyle.Bold),
                         ForeColor = Color.Black,
-                        Location = new Point(10, 5), // Posição fixa no topo
+                        Location = new Point(10, 5),
                         AutoSize = true
                     };
                     card.Controls.Add(titleLabel);
@@ -115,21 +115,67 @@ namespace Trabalho_POO
                         AutoSize = true
                     });
 
+                    // Label para "Data Início"
+                    card.Controls.Add(new Label
+                    {
+                        Text = "Data Início:",
+                        Font = new Font("Segoe UI", 8),
+                        ForeColor = Color.Black,
+                        Location = new Point(10, 135),
+                        AutoSize = true
+                    });
+
+                    // DateTimePicker: Data Início
+                    var dtpStartDate = new DateTimePicker
+                    {
+                        Location = new Point(10, 150),
+                        Width = 200,
+                        Value = DateTime.Now,
+                        Format = DateTimePickerFormat.Short
+                    };
+                    card.Controls.Add(dtpStartDate);
+
+                    // Label para "Data Fim"
+                    card.Controls.Add(new Label
+                    {
+                        Text = "Data Fim:",
+                        Font = new Font("Segoe UI", 8),
+                        ForeColor = Color.Black,
+                        Location = new Point(10, 185),
+                        AutoSize = true
+                    });
+
+                    // DateTimePicker: Data Fim
+                    var dtpEndDate = new DateTimePicker
+                    {
+                        Location = new Point(10, 200),
+                        Width = 200,
+                        Value = DateTime.Now,
+                        Format = DateTimePickerFormat.Short
+                    };
+                    card.Controls.Add(dtpEndDate);
+
                     // Botão Reservar
                     var actionButton = new Button
                     {
                         Text = "Reservar",
-                        BackColor = Color.LightGray, // Botão cinzento
+                        BackColor = Color.LightGray,
                         ForeColor = Color.Black,
-                        Location = new Point(10, 135), // Posição no fundo
-                        Width = 200, // Largura fixa
+                        Location = new Point(10, 240), // Posição final ajustada
+                        Width = 200,
                         Height = 30,
                         Font = new Font("Segoe UI", 9, FontStyle.Bold)
                     };
 
-                    actionButton.Click += (sender, e) => ReserveAccommodation(accommodation);
+                    // Evento do botão Reservar
+                    actionButton.Click += (sender, e) =>
+                    {
+                        ReserveAccommodation(accommodation, dtpStartDate.Value, dtpEndDate.Value);
+                    };
+
                     card.Controls.Add(actionButton);
 
+                    // Adicionar o card ao FlowLayoutPanel
                     flpAccommodations.Controls.Add(card);
                 }
             }
@@ -138,6 +184,7 @@ namespace Trabalho_POO
                 MessageBox.Show($"Erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
 
 
@@ -163,9 +210,55 @@ namespace Trabalho_POO
         }
 
         // Método para "reservar" um alojamento (exemplo)
-        private void ReserveAccommodation(Accomodation accommodation)
+        private void ReserveAccommodation(Accomodation accommodation, DateTime startDate, DateTime endDate)
         {
-            MessageBox.Show($"Reserva efetuada para: {accommodation.Name}", "Reserva", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            try
+            {
+                // Verificar se o ID do cliente está na sessão
+                if (SessionClient.UserId == Guid.Empty)
+                {
+                    MessageBox.Show("Nenhum cliente autenticado! Faça login novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Criar os dados da reserva
+                var reservation = new ReservationClient(
+                    Guid.NewGuid(),                  // ID da reserva (único)
+                    SessionClient.UserId,            // ID do cliente (da sessão)
+                    accommodation.ID,                // ID do alojamento
+                    accommodation.Name,              // Nome do alojamento
+                    startDate,                       // Data de início
+                    endDate,                         // Data de fim
+                    accommodation.Price              // Preço
+                );
+
+                // Guardar a reserva no ficheiro
+                SaveReservationToFile(reservation);
+
+                // Mensagem de sucesso
+                MessageBox.Show("Reserva efetuada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao processar reserva: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void SaveReservationToFile(ReservationClient reservation)
+        {
+            string filePath = @"C:\TrabalhoPOO\Trabalho_POO\Bd\ClientReservation.txt";
+
+            // Converter os dados da reserva para uma linha
+            string reservationLine = $"{reservation.ReservationID};" +
+                                     $"{reservation.ClientID};" +
+                                     $"{reservation.AccommodationID};" +
+                                     $"{reservation.AccommodationName};" +
+                                     $"{reservation.StartDate:yyyy-MM-dd};" +
+                                     $"{reservation.EndDate:yyyy-MM-dd};" +
+                                     $"{reservation.Price}";
+
+            // Guardar no ficheiro
+            File.AppendAllText(filePath, reservationLine + Environment.NewLine);
         }
 
         private void flpAccommodations_Paint(object sender, PaintEventArgs e)

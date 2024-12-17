@@ -28,34 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // dataGridView1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(166, 96);
-            label1.Name = "label1";
-            label1.Size = new Size(109, 20);
-            label1.TabIndex = 0;
-            label1.Text = "INFO CLIENTES";
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(157, 108);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(647, 239);
+            dataGridView1.TabIndex = 0;
             // 
             // ClientInfo
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1219, 600);
-            Controls.Add(label1);
+            ClientSize = new Size(1067, 450);
+            Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "ClientInfo";
             Text = "ClientInfo";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private DataGridView dataGridView1;
     }
 }

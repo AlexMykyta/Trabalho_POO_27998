@@ -65,6 +65,9 @@ namespace Trabalho_POO
                         throw new WrongPasswordException();
                     }
 
+                    // Guardar os dados do utilizador na sessão
+                    SessionClient.StartSession(user.Id, user.Name);
+
                     MainClientPanel Main = new MainClientPanel();
                     this.Hide();
                     Main.Show();

@@ -1,4 +1,6 @@
-﻿namespace Trabalho_POO
+﻿using Objects;
+
+namespace Trabalho_POO
 {
     public partial class MainAdminPanel : Form
     {
@@ -45,6 +47,8 @@
 
         private void btLogOut_Click(object sender, EventArgs e)
         {
+            SessionClient.EndSession();
+
             Login Login = new Login();
 
             this.Hide();
